@@ -1,0 +1,169 @@
+/* WebContent/style.css - SIMPLE & CLEAN VERSION */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin: 25px 0 15px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #3498db;
+    color: black;
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c0392b !important;
+}
+
+.action-links a {
+    background: #3498db;
+    color: white !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 0.9rem;
+}
+
+.action-links a:hover {
+    background: #2980b9;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #2ecc71;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #27ae60;
+    color: black !important;
+}
+
+.home-links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Forms */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #2980b9;
+}
+
+/* Radio buttons */
+.radio-option {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+.radio-option input[type="radio"] {
+    transform: scale(1.4);
+    margin-right: 10px;
+}
+
+/* Back links */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+/* Chart */
+canvas {
+    margin: 30px auto;
+    display: block;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Error/Success messages */
+.alert-error { color: #e74c3c; background: #fadad7; padding: 15px; border-radius: 5px; margin: 15px 0; }
+.alert-success { color: #27ae60; background: #d5f4e6; padding: 15px; border-radius: 5px; margin: 15px 0; }
